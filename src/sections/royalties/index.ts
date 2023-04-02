@@ -1,0 +1,1 @@
+export { Royalties as default } from './royalties'
