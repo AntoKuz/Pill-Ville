@@ -9,8 +9,7 @@ const Super = dynamic(() => import('@/sections/super'), { ssr: false })
 const Royalties = dynamic(() => import('@/sections/royalties'), { ssr: false })
 
 
-const App = () => {
-  return <>
+const App = () => (
     <AppWrapper>
       <SC_GlobalAppStyles />
       <Header />
@@ -19,7 +18,6 @@ const App = () => {
       <Super />
       <Royalties />
     </AppWrapper>
-  </>
-}
+)
 
 export default App
